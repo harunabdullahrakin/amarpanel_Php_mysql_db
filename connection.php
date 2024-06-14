@@ -1,9 +1,9 @@
 <?php
 
-$dbhost = "sql.freedb.tech";
-$dbuser = "freedb_rakin";
-$dbpass = "pM*NHqJMXqK%6MY";
-$dbname = "freedb_rakinf";
+$dbhost = "server_address";
+$dbuser = "username";
+$dbpass = "db_password";
+$dbname = "db_name";
 
 if(!$con = mysqli_connect($dbhost,$dbuser,$dbpass,$dbname))
 {
